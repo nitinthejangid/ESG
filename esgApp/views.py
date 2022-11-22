@@ -4,6 +4,7 @@ from django.http import JsonResponse
 import json
 import os
 
+
 def getAnalyzedData(request):
     # Folder Path
     path = r"D:\WORK\test_json.json"
